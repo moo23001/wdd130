@@ -10,6 +10,7 @@ Fonts are separated by a & */
   --secondary-color: #001d3d ;
   --accent1-color: #000814;
   --accent2-color: #FFC300;
+  --accent3-color: #FFD60A;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Gruppo";
@@ -92,6 +93,9 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
 }
 p.colored {
   background-color: var(--paragraph-background-color);
