@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #0074C4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Montserrat";
+  --heading-font: "Montserrat",sans-serif;
   --paragraph-font: "Montserrat", sans-serif, Arial;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -102,6 +102,7 @@ p.colored {
 
 nav {
   background-color: var(--nav-background-color);
+  font-family: var(--paragraph-font);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
