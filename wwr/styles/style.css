@@ -36,6 +36,7 @@ nav a:hover {
 }
 #hero-msg h1 {
     text-align: center;
+    color: #FFC300;
 }
 #hero-msg h4 {
     text-align: center;
@@ -140,7 +141,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
-}
+}       
 footer p a:hover {
     text-decoration: none;
 }
@@ -176,7 +177,7 @@ h2 {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #001D3D;
 }
-.card-img :hover {
+.card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
