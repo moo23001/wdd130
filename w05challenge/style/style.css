@@ -1,0 +1,27 @@
+#content {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    align-self: center;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+#circles {
+    max-width: 1600px;
+    height: auto;
+}
+#img_container {
+    text-align: center;
+}
+.circle_images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(50, 50, 50);
+    margin: 20px;
+    
+}
