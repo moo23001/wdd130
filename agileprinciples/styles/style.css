@@ -129,6 +129,24 @@ header {
     margin: auto;
 }
 
+/* Agile Manifesto page */
+.box_left, .box_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box_left img, .box_right img {
+    width: 100%;
+    height: 100%;
+}
+.box_clear_title {
+    color: white
+}
+.box_dark_title {
+    color: #D8C691
+}
+.title_container {
+    background-color: #005691;
+}
 
 footer {
     display: flex;
