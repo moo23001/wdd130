@@ -99,6 +99,37 @@ header {
 .info_home_msg {
     margin: auto;
 }
+
+/* Why Agile page */
+#upper_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    column-gap: 50px;
+}
+#upper_img {
+    width: 100%;
+    height: 100%;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #001D3D;
+}
+#lower_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 50px;
+}
+#lower_img {
+    width: 100%;
+    height: 100%;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #001D3D;
+}
+#upper_info_msg, #lower_info_msg {
+    margin: auto;
+}
+
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -127,3 +158,27 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+
+/* Don't add anything after this*/
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    margin-top: 30px;
+  }
+ .container img {
+    width: 100%;
+    height: 100%;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #001D3D;
+ } 
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
