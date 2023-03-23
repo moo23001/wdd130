@@ -133,19 +133,25 @@ header {
 .box_left, .box_right {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #005691;
 }
 .box_left img, .box_right img {
     width: 100%;
     height: 100%;
 }
 .box_clear_title {
-    color: white
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 .box_dark_title {
-    color: #D8C691
+    color: #D8C691;
+    padding: 10px;
+    text-align: center;
 }
 .title_container {
-    background-color: #005691;
+    margin: auto;
+
 }
 
 footer {
